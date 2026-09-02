@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# Large model weights: the segmentation model is ~356 MB, which exceeds
+# GitHub's 100 MiB per-file limit. It is distributed as a GitHub release asset
+# instead of being committed to the repository (see README.md).
+# ---------------------------------------------------------------------------
+finetuning_keras_20260624/
+*.tar.gz
+*.zip
+
+# Outputs produced by the notebook
+output*.csv
+segmentation/
+regions/
+*.png
+
+# Backups / scratch
+*.bak
+*_original.ipynb
+
+# Notebook and Python artefacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Junk left by a failed archive attempt - delete this folder manually
+_to_delete/

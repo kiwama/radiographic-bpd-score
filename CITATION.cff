@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+title: Radiographic BPD Likelihood Score
+message: >-
+  If you use this software or the accompanying model weights, please cite
+  both the software and the associated paper.
+type: software
+authors:
+  - family-names: Iwama
+    given-names: Kazuhiro
+    email: kiwama@yokohama-cu.ac.jp
+    affiliation: >-
+      Department of Pediatrics, Graduate School of Medicine,
+      Yokohama City University, Yokohama, Japan
+  - family-names: Yasui
+    given-names: Masaki
+  - family-names: Sakai
+    given-names: Shunsuke
+  - family-names: Nomura
+    given-names: Ryosuke
+  - family-names: Kemmotsu
+    given-names: Takahiro
+  - family-names: Yamashita
+    given-names: Riu
+  - family-names: Ito
+    given-names: Shuichi
+repository-code: 'https://github.com/kiwama/radiographic-bpd-score'
+abstract: >-
+  Inference code and trained model weights for a deep-learning radiographic
+  bronchopulmonary dysplasia (BPD) likelihood score computed from lung field
+  segmentation and patch-level classification of chest radiographs of
+  extremely preterm infants.
+keywords:
+  - bronchopulmonary dysplasia
+  - chest radiography
+  - deep learning
+  - preterm infant
+  - lung segmentation
+license: MIT
+license-url: 'https://github.com/kiwama/radiographic-bpd-score/blob/main/LICENSE'
+preferred-citation:
+  type: article
+  title: >-
+    Deep Learning-Based Radiographic Bronchopulmonary Dysplasia Likelihood
+    Scoring Using Lung Field Segmentation on Chest Radiographs of Extremely
+    Preterm Infants
+  authors:
+    - family-names: Iwama
+      given-names: Kazuhiro
+    - family-names: Yasui
+      given-names: Masaki
+    - family-names: Sakai
+      given-names: Shunsuke
+    - family-names: Nomura
+      given-names: Ryosuke
+    - family-names: Kemmotsu
+      given-names: Takahiro
+    - family-names: Yamashita
+      given-names: Riu
+    - family-names: Ito
+      given-names: Shuichi
+  year: 2026

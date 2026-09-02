@@ -1,0 +1,10 @@
+# Git LFS is NOT used in this repository. The large segmentation model
+# (~356 MB) is distributed as a GitHub release asset instead; see README.md.
+
+*.ipynb text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.cff   text eol=lf
+*.txt   text eol=lf
+
+*.keras binary

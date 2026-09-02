@@ -1,0 +1,16 @@
+# Environment used for model development and validation
+# (Python 3.8.10, macOS / Apple Silicon with the Metal backend).
+# The scoring model stores its Lambda layers as marshalled Python 3.8 bytecode,
+# so please use Python 3.8 to load it.
+tensorflow==2.13.0
+# On Apple Silicon, replace the line above with:
+#   tensorflow-macos==2.13.0
+#   tensorflow-metal==1.0.1
+numpy<2
+opencv-python
+scipy
+pillow
+pandas
+matplotlib
+jupyter
+ipython
